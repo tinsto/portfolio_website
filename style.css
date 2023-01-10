@@ -1,0 +1,362 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(webfontkit/montserrat-variablefont_wght-webfont.woff2);
+}
+
+@font-face {
+  font-family: lato;
+  src: url(webfontkit/lato-regular-webfont.woff2);
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(webfontkit/poppins-black-webfont.woff2);
+}
+
+@font-face {
+  font-family: libre;
+  src: url(webfontkit/librecaslontext-regular-webfont.woff2);
+}
+
+nav {
+  position: relative;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  font-family: lato;
+  width: 200px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px 40px;
+  margin-top: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: #fa8f6b;
+}
+
+li a:hover {
+  font-size: 120%;
+}
+
+h1 {
+  font-family: poppins;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: montserrat;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: montserrat;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: lato;
+  line-height: 1.8;
+  color: #696865;
+}
+
+/*-----------------portfolio------------*/
+
+section {
+  background-color: white;
+}
+
+.sub_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  background-color: #429e9d;
+  color: white;
+}
+
+.web_img_container3 {
+  background-color: #429e9d;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  gap: 20px;
+}
+
+.sub_section p {
+  font-family: montserrat;
+  color: white;
+}
+
+.sub_section h2 {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.hero {
+  background-image: url(background/tunnel2.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: lato;
+  color: #fa8f6b;
+}
+
+.portrett {
+  width: 300px;
+  border-radius: 30px;
+}
+
+.project-card {
+  width: 200px;
+  height: 500px;
+  box-shadow: 5px 5px 20px grey;
+}
+
+header.sticky {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+}
+
+.portfolio_heading {
+  text-align: center;
+  margin-top: 50px;
+  padding: 80px;
+}
+
+.portfolio_heading h1 {
+  font-size: 40px;
+}
+
+.portfolio_heading p {
+  font-family: lato;
+  line-height: 1.8;
+  gap: 10px;
+}
+
+.sub_section_portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+}
+
+.project_img_container {
+  display: grid;
+  align-items: center;
+}
+
+.web {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.sub_section_web {
+  background-color: #fa8f6b;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  gap: 20px;
+}
+
+.sub_section_web h2 {
+  color: white;
+}
+
+.sub_section_web2 {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  gap: 20px;
+}
+
+.sub_section_ux {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  gap: 20px;
+}
+
+.sub_section_animasjon {
+  background-color: lightyellow;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  gap: 20px;
+}
+
+.sub_section_animasjon h2,
+.sub_section_ux h2 {
+  font-family: poppins;
+  font-weight: lighter;
+}
+
+.sub_section_ux h2,
+.sub_section_innhold h2 {
+  font-family: poppins;
+  font-weight: lighter;
+  color: #484745;
+}
+
+.sub_section_innhold {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  gap: 20px;
+}
+
+.sub_section_eksamen {
+  background-color: #fa8f6b;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  gap: 20px;
+}
+
+.sub_section_eksamen2 {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  gap: 20px;
+}
+
+.sub_section_eksamen h2 {
+  color: white;
+}
+
+input[type="submit"] {
+  width: 110px;
+  height: 40px;
+  background-color: #696865;
+  color: white;
+  font-family: lato;
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+  font-size: 110%;
+  background-color: #ffb17b;
+}
+
+/*burger menu*/
+
+button[aria-expanded] {
+  background: unset;
+  border: 2px solid var(--burger-border, #e2e1e4);
+  box-sizing: border-box;
+  border-radius: 6px;
+  inline-size: 2.25rem;
+  block-size: 2.25rem;
+  padding: 0.25rem;
+  cursor: pointer;
+  color: #fa8f6b;
+}
+svg {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  color: #fa8f6b;
+}
+
+.col h3 {
+  font-size: 20px;
+  font-family: lato;
+  font-weight: bold;
+  color: rgb(62, 61, 61);
+}
+
+@media (max-width: 1000px) {
+  .sub_section,
+  .sub_section_web,
+  .sub_section_web2,
+  .sub_section_ux,
+  .sub_section_animasjon,
+  .sub_section_innhold,
+  .sub_section_eksamen,
+  .sub_section_eksamen2 {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+    align-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .web {
+    width: 300px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .web {
+    width: 600px;
+    border-radius: 10px;
+  }
+}
+
+footer a {
+  text-decoration: none;
+  color: #fa8f6b;
+}
+
+footer a:hover {
+  font-size: 120%;
+}
+
+/*
+
+.portfolio_content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 80px;
+}
+
+.col {
+  position: relative;
+}
+
+.col img {
+  max-width: 100%;
+  width: 550px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+*/
