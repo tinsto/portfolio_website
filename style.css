@@ -27,6 +27,7 @@
 nav {
   position: relative;
   justify-content: space-between;
+  background-color: white;
 }
 
 ul {
@@ -145,7 +146,6 @@ header.sticky {
 
 .portfolio_heading {
   text-align: center;
-  margin-top: 50px;
   padding: 80px;
 }
 
@@ -315,13 +315,6 @@ svg {
 @media (max-width: 500px) {
   .web {
     width: 300px;
-    border-radius: 10px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .web {
-    width: 600px;
     border-radius: 10px;
   }
 }
